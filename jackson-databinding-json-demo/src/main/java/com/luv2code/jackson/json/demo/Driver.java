@@ -17,6 +17,9 @@ public class Driver {
 
 			Student theStudent = mapper.readValue(new File("data/sample-lite.json"), Student.class);
 
+			System.out.println("Student First Name " + theStudent.getFirstName());
+			System.out.println("Student last Name " + theStudent.getLastName());
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

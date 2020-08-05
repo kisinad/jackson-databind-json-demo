@@ -5,7 +5,7 @@ public class Student {
 	private int id;
 	private String firstName;
 	private String lastName;
-	private boolean status;
+	private boolean active;
 
 	public Student() {
 	}
@@ -34,12 +34,12 @@ public class Student {
 		this.lastName = lastName;
 	}
 
-	public boolean isStatus() {
-		return status;
+	public boolean isActive() {
+		return active;
 	}
 
-	public void setStatus(boolean status) {
-		this.status = status;
+	public void setActive(boolean active) {
+		this.active = active;
 	}
 
 }
