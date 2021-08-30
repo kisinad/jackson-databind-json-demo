@@ -1,4 +1,4 @@
-package com.luv2code.jackson.json.demo;
+package com.jackson.json.demo;
 
 public class Student {
 
